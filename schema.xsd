@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+		targetNamespace="http://www.epam.tc.com/films"
+		xmlns:tns="http://www.epam.tc.com/films">
+<complexType name="films">
+	<sequence>
+		<element name="country" type="tns:Country" minOccurs="1"
+			maxOccurs="unbounded" />
+		<attribute name="name" type="string" use="required" />	
+	</sequence>
+</complexType>
+
+<complexType name="Country">
+	<sequence>
+		<element name="film" type="tns:Film" minOccurs="1"
+			maxOccurs="unbounded" />
+		<attribute name="title" type="string" use="required" />
+	</sequence>
+</complexType>
+
+<complexType name="Genre">
+	<sequence>
+		<element name="genre_name" type="tns:Genre_Name" minOccurs="1"
+			maxOccurs="unbounded" />
+		<attribute name="title" type="string" use="required" />
+	</sequence>
+</complexType>
+
+<complexType name="Actor">
+	<sequence>
+		<element name="name" type="string" minLength="10" />
+		<element name="birthday" type="date" />
+		<element name="birthplace" type="string" minLength="10" />
+		<element name="total_Films" type="integer" />
+	</sequence>
+	<attribute name="role" type="string" use="required" />
+</complexType>
+
+<simpleType name="Genre_Name">
+	<restriction base="string">
+        <enumeration value="ACTION" />
+        <enumeration value="DRAMA" />
+        <enumeration value="THRILLER" />
+		<enumeration value="COMEDY" />
+		<enumeration value="ROMANCE" />
+		<enumeration value="WAR" />
+		<enumeration value="BIOGRAPHY" />
+		<enumeration value="HISTORY" />
+		<enumeration value="FANTASY" />
+    </restriction>
+</simpleType>
+
+<complexType name="Film">
+	<sequence>
+		<element name="year" type="integer" />
+		<element name="director" type="string" />
+		<element name="genre" type="tns:Genre" />
+		<element name="duration" type="integer" />
+		<element name="cast" type="tns:Actor" minOccurs="1"
+			maxOccurs="unbounded" />
+	</sequence>
+	
+</complexType>
+
+</schema>
