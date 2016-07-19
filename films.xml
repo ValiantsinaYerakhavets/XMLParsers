@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<films xmlns="http://www.epam.tc.com/films">
+	<country name="UK">
+		<film title="Love, Rosie">
+			<year>2014</year>
+			<director>Christian Detter</director>
+			<genre>
+				<genre_Name>Romance</genre_Name>
+				<genre_Name>Comedy</genre_Name>
+			</genre>
+			<duration>102</duration>
+			<cast>
+				<actor role="Rosie Dunne">
+					<name>Lily Collins</name>
+					<birthday>18.03.1989</birthday>
+					<birthplace>Guildford, Surrey, England, UK</birthplace>
+					<total_Films>40</total_Films>
+				</actor>
+				<actor role="Alex Stewart">
+					<name>Sam Claflin</name>
+					<birthday>27.06.1986</birthday>
+					<birthplace>Ipswich, Suffolk, England, UK</birthplace>
+					<total_Films>37</total_Films>
+				</actor>
+			</cast>
+		</film>
+		<film title="King's Speech">
+			<year>2010</year>
+			<director>Tom Hooper</director>
+			<genre>
+				<genre_Name>Drama</genre_Name>
+				<genre_Name>Biography</genre_Name>
+				<genre_Name>History</genre_Name>
+			</genre>
+			<duration>118</duration>
+			<cast>
+				<actor role="King George VI">
+					<name>Colin Firth</name>
+					<birthday>10.09.1960</birthday>
+					<birthplace>Grayshott, Hampshire, England, UK</birthplace>
+					<total_Films>160</total_Films>
+				</actor>
+				<actor role="Lionel Logue">
+					<name>Geoffrey Rush</name>
+					<birthday>06.07.1951</birthday>
+					<birthplace>Toowoomba, Queensland, Australia</birthplace>
+					<total_Films>139</total_Films>
+				</actor>
+				<actor role="Queen Elizabeth">
+					<name>Helena Bonham Carter</name>
+					<birthday>26.05.1966</birthday>
+					<birthplace>Golders Green, London, England, UK</birthplace>
+					<total_Films>153</total_Films>
+				</actor>
+			</cast>
+		</film>
+		<film title="Becoming Jane">
+			<year>2006</year>
+			<director>Jullian Jarrold</director>
+			<genre>
+				<genre_Name>Drama</genre_Name>
+				<genre_Name>Romance</genre_Name>
+				<genre_Name>Biography</genre_Name>
+			</genre>
+			<duration>120</duration>
+			<cast>
+				<actor role="Jane Austen">
+					<name>Anne Hathaway</name>
+					<birthday>12.11.1982</birthday>
+					<birthplace>Brooklyn, New York, USA</birthplace>
+					<total_Films>143</total_Films>
+				</actor>
+				<actor role="Tom Lefroy">
+					<name>James McAvoy</name>
+					<birthday>21.04.1979</birthday>
+					<birthplace>Glasgow, Scotland, UK</birthplace>
+					<total_Films>109</total_Films>
+				</actor>
+			</cast>
+		</film>
+	</country>
+	<country name="Poland">
+		<film title="Facet (nie)potrzebny od zaraz">
+			<year>2014</year>
+			<director>Weronika Migon</director>
+			<genre>
+				<genre_Name>Drama</genre_Name>
+				<genre_Name>Romance</genre_Name>
+				<genre_Name>Comedy</genre_Name>
+			</genre>
+			<duration>88</duration>
+			<cast>
+				<actor role="Zosia">
+					<name>Katarzyna Maciag</name>
+					<birthday>18.03.1989</birthday>
+					<birthplace>Kozienice, Poland</birthplace>
+					<total_Films>21</total_Films>
+				</actor>
+				<actor role="Patrycja">
+					<name>Joanna Kulig</name>
+					<birthday>24.06.1982</birthday>
+					<birthplace>Krynica-Zdroj, Poland</birthplace>
+					<total_Films>25</total_Films>
+				</actor>
+			</cast>
+		</film>
+	</country>
+	<country name="USSR">
+		<film title="Семнадцать мгновений весны">
+			<year>1973</year>
+			<director>Татьяна Лиознова</director>
+			<genre>
+				<genre_Name>Drama</genre_Name>
+				<genre_Name>Adventure</genre_Name>
+				<genre_Name>War</genre_Name>
+				<genre_Name>History</genre_Name>
+			</genre>
+			<duration>828</duration>
+			<cast>
+				<actor role="Штирлиц">
+					<name>Вячеслав Тихонов</name>
+					<birthday>08.02.1928</birthday>
+					<birthplace>Павловский Посад, Московская губерния, СССР</birthplace>
+					<total_Films>120</total_Films>
+				</actor>
+			</cast>
+		</film>
+		<film title="Иван Васильевич меняет профессию">
+			<year>1973</year>
+			<director>Леонид Гайдай</director>
+			<genre>
+				<genre_Name>Fantasy</genre_Name>
+				<genre_Name>Comedy</genre_Name>
+				<genre_Name>Adventure</genre_Name>
+			</genre>
+			<duration>88</duration>
+			<cast>
+				<actor role="Александр Тимофеев, инженер-изобретатель">
+					<name>Александр Демьяненко</name>
+					<birthday>30.05.1937</birthday>
+					<birthplace>Свердловск, СССР</birthplace>
+					<total_Films>276</total_Films>
+				</actor>
+				<actor role="царь Иван Васильевич Грозный / управдом Иван Васильевич Бунша">
+					<name>Юрий Яковлев</name>
+					<birthday>25.04.1928</birthday>
+					<birthplace>Москва, СССР</birthplace>
+					<total_Films>116</total_Films>
+				</actor>
+			</cast>
+		</film>
+	</country>
+</films>
